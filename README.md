@@ -6,18 +6,18 @@ _freeDDS_ is an open source Data Distribution Service (DDS) minimal implementati
 ### Milestones
 This section gives an overview of the milestones needed to complete freeDDS. It also provides an effort to approximate the time needs for each one of the tasks:
 
-- [x] Quick overview/understand fo the OMG DDS standart `[~ 1 week]`
-    - [ ] Read/understand deeply the OMG DDS standart `[~ 2 weeks]`
-- [ ] Implement a basic skelethon for the DDS classes `[~ 1 week]`
-- [ ] Use the POSIX network stack to create a simple UDP/IP publisher/subscriber example `[ ~ <1 week ]`
-- [ ] Read/understand the OMG RTPS protocol `[~ 2 weeks ]`
-- [ ] Implement the RTPS layer for freeDDS `[ ~ 3 weeks]`
-    - [ ] Assess the RT aspects of the overall DDS implementation `[ ~ 2 weeks]` 
-- [ ] Evaluate the overall implementation (wireshark) and do interfacing tests with other DDSs `[ ~ 2 weeks]`
-- [ ] ROS client nano library client API `[ ~ 2 weeks]` 
-- [ ] ROS 2 Desktop <-> ROS 2 Embedded tests `[ ~ 4 weeks]`
+- [x] Quick overview/understand fo the OMG DDS standart `[1 week]`
+    - [ ] Read/understand deeply the OMG DDS standart `[2 weeks]`
+- [ ] Implement a basic skelethon for the DDS classes `[1 week]`
+- [ ] Use the POSIX network stack to create a simple UDP/IP publisher/subscriber example `[ <1 week ]`
+- [ ] Read/understand the OMG RTPS protocol `[2 weeks ]`
+- [ ] Implement the RTPS layer for freeDDS `[ 3 weeks]`
+    - [ ] Assess the RT aspects of the overall DDS implementation `[ 2 weeks]` 
+- [ ] Evaluate the overall implementation (wireshark) and do interfacing tests with other DDSs `[ 2 weeks]`
+- [ ] ROS client nano library client API `[ 2 weeks]` 
+- [ ] ROS 2 Desktop <-> ROS 2 Embedded tests `[ 4 weeks]`
 
-Total estimated `~ 20 weeks`.
+Total estimated `20 weeks`.
 
 ### Code structure
 The code has been designed according to the DDS specification and it is structured in 5 modules ("Data Distribution Service for Real-time Systems, v1.2", pg. 24):

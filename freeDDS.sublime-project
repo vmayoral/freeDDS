@@ -1,0 +1,36 @@
+{
+"folders":
+    [
+        {
+            "follow_symlinks": true,
+            "path": "/home/victor/Dropbox/OSRF/freeDDS/"
+        }
+    ],
+"settings":
+    {
+        // GDB configuration
+        "sublimegdb_commandline": "gdb -nx -readnow -fullname --interpreter=mi -args .src/ooc-demo/tankgame",
+        "sublimegdb_workingdir": "${folder:${project_path:src/ooc-demo/tankgame}}"
+
+        // GDB Config for cmake system 
+/*        "sublimegdb_commandline": "gdb --interpreter=mi myapp",
+        "sublimegdb_workingdir": "build",
+
+        "sublimeclang_options" :
+        [
+            "-Wno-reorder"
+        ],
+        "sublimeclang_options_script": "${project_path:scripts/compileflags.rb} ${project_path:build}"
+*/
+    },
+
+"build_systems":
+    [
+        {
+            "name": "Build",
+            "cmd": [ "make", "-C", "build" ],
+            "file_regex": "/([^/:]+):(\\d+):(\\d+): "
+        }
+    ],
+
+}
