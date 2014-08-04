@@ -20,6 +20,9 @@ This section gives an overview of the milestones needed to complete freeDDS. It 
 Total estimated `20 weeks`.
 
 ### Code structure
+
+![](http://vmayoral.github.io/freeDDS_gitbook/img/ros_on_dds_diagrams_arch.png)
+
 The code has been designed according to the DDS specification and it is structured in 5 modules ("Data Distribution Service for Real-time Systems, v1.2", pg. 24):
 
 >- The Infrastructure Module (`src/infrastructure`) defines the abstract classes and the interfaces that are refined by the other modules. It also
