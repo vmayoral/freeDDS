@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-I.
+CFLAGS=-I. -g
 DEPS = tank.h
 OBJ = tank.o tankgame.o 
 %.o: %.c $(DEPS)

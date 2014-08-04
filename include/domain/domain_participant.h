@@ -3,10 +3,10 @@
 #ifndef _DOMAIN_PARTICIPANT_H
 #define _DOMAIN_PARTICIPANT_H
 
-#include "../infraestructure/qos_policy.h"
-#include "../publication/publisher.h"
-#include "../subscription/subscriber.h"
-#include "../topic/topic.h"
+#include "infrastructure/qos_policy.h"
+#include "publication/publisher.h"
+#include "subscription/subscriber.h"
+#include "topic/topic.h"
 
 typedef struct DomainParticipant {
   /* pseudo-attributes */

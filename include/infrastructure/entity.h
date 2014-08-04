@@ -3,7 +3,7 @@
 #ifndef _ENTITY_H
 #define _ENTITY_H
 
-#include "qos_policy.h"
+#include "infrastructure/qos_policy.h"
 
 typedef struct Entity {
   /* attributes */

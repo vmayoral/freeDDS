@@ -1,6 +1,7 @@
 /* OMG DDS Publisher implementation */
 
-#include "publisher.h"
+#include "publication/publisher.h"
+#include <stdlib.h>
 
 Publisher * new_Publisher(QoSPolicy* qos, DomainParticipant* dmp)
 {

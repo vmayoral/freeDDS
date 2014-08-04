@@ -1,7 +1,8 @@
 /* OMG DDS Topic implementation */
 
-#include "topic.h"
+#include "topic/topic.h"
 #include <string.h>
+#include <stdlib.h>
 
 Topic * new_Topic(const char *name, QoSPolicy* qos, DomainParticipant domain_participant)
 {

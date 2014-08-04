@@ -1,7 +1,8 @@
 /* OMG DDS DataReader implementation */
 
-#include "data_reader.h"
-#include "stdio.h"
+#include "subscription/data_reader.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 DataReader * new_DataReader(QoSPolicy* qos, DomainParticipant* dmp, Topic* topic)
 {
@@ -36,7 +37,7 @@ Data* read_DataReader(struct DataReader *)
 	return NULL; //Fix
 }
 
-bool on_data_available_DataReader(struct DataReader *)
+int on_data_available_DataReader(struct DataReader *)
 {
 	return false;
 }

@@ -1,6 +1,7 @@
 /* OMG DDS DomainParticipant implementation */
 
-#include "domain_participant.h"
+#include "domain/domain_participant.h"
+#include <stdlib.h>
 
 DomainParticipant * new_DomainParticipant(QoSPolicy* qos_policy) 
 {

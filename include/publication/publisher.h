@@ -3,9 +3,9 @@
 #ifndef _PUBLISHER_H
 #define _PUBLISHER_H
 
-#include "../domain/domain_participant.h"
-#include "../infraestructure/qos_policy.h"
-#include "data_writer.h"
+#include "domain/domain_participant.h"
+#include "infrastructure/qos_policy.h"
+#include "publication/data_writer.h"
 
 typedef struct Publisher {
   /* pseudo-attributes */

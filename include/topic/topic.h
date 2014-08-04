@@ -3,8 +3,8 @@
 #ifndef _TOPIC_H
 #define _TOPIC_H
 
-#include "../domain/domain_participant.h"
-#include "../infraestructure/qos_policy.h"
+#include "domain/domain_participant.h"
+#include "infrastructure/qos_policy.h"
 
 typedef struct Topic {
   /* pseudo-attributes */
@@ -15,8 +15,8 @@ typedef struct Topic {
 } Topic;
 
   /* pseudo-methods */
-Topic * new_Topic(const char *);
-void delete_Topic(Topic *);
+Topic * new_Topic(const char *); /* Shouldn't be used */
+void delete_Topic(Topic *); /* Shouldn't be used */
 void set_qos_Topic(struct Topic *, QoSPolicy*);
 QoSPolicy* get_qos_Topic(struct Topic *); 
 

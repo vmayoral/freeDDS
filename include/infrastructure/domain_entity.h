@@ -3,8 +3,8 @@
 #ifndef _DOMAIN_ENTITY_H
 #define _DOMAIN_ENTITY_H
 
-#include "../domain/domain_participant.h"
-#include "qos_policy.h"
+#include "domain/domain_participant.h"
+#include "infrastructure/qos_policy.h"
 
 typedef struct DomainEntity {
   /* attributes */

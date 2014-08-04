@@ -1,1 +1,3 @@
-add_library( domain domain_entity.h entity.h qos_policy.h qos_policy.c )
+# Domain library
+add_library( domain domain_participant.c )
+target_link_libraries(domain infrastructure)

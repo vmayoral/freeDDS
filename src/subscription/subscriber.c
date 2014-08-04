@@ -1,6 +1,7 @@
 /* OMG DDS Subscriber implementation */
 
-#include "Subscriber.h"
+#include "subscription/subscriber.h"
+#include <stdlib.h>
 
 Subscriber* new_Subscriber(QoSPolicy* qos, DomainParticipant* dmp)
 {

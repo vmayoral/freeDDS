@@ -3,10 +3,10 @@
 #ifndef _SUBSCRIBER_H
 #define _SUBSCRIBER_H
 
-#include "../domain/domain_participant.h"
-#include "../infraestructure/qos_policy.h"
-#include "data_reader.h"
-#include "../topic/topic.h"
+#include "domain/domain_participant.h"
+#include "infrastructure/qos_policy.h"
+#include "subscription/data_reader.h"
+#include "topic/topic.h"
 
 typedef struct Subscriber {  
   /* pseudo-attributes */

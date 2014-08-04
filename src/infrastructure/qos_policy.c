@@ -1,8 +1,9 @@
 /* OMG DDS QoSPolicy implementation */
 
-#include "qos_policy.h"
+#include "infrastructure/qos_policy.h"
+#include <stdlib.h>
 
-QoSPolicy * new_QoSPolicy(const char *name, int priority)
+QoSPolicy * new_QoSPolicy(int priority)
 {
   QoSPolicy *p = (QoSPolicy *) malloc(sizeof(QoSPolicy));
   p->priority = priority; 
